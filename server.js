@@ -8,7 +8,7 @@ import rateLimit from "express-rate-limit";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const isProduction = process.env.NODE_ENV === "production";
-const port = process.env.PORT || 5173;
+const port = process.env.PORT || 3030;
 
 const app = express();
 
