@@ -19,6 +19,169 @@ import dispersion_gallery9 from "../assets/dispersion_gallery9.webp";
 import { FaPlus, FaTimes, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import SEO from "../component/SEO";
 
+const kneaderGujaratSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.xtrememachines.in/kneader-machine-in-gujarat#blogposting",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": "https://www.xtrememachines.in/kneader-machine-in-gujarat",
+      },
+      headline: "Kneader Machine in Gujarat | Industrial Kneader Machine Manufacturer",
+      description:
+        "Looking for a reliable Kneader Machine Manufacturer in Gujarat? Xtreme Machines manufactures high-performance industrial kneader machines for masterbatch, plastic, rubber, polymer, PVC and compounding industries across Ahmedabad, Surat, Vadodara, Rajkot and all major cities of Gujarat.",
+      image: "https://www.xtrememachines.in/wp-content/uploads/2024/01/kneader-machine.webp",
+      author: {
+        "@type": "Organization",
+        name: "Xtreme Machines",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Xtreme Machines",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://www.xtrememachines.in/wp-content/uploads/2023/09/logo.png",
+        },
+      },
+      datePublished: "2025-01-01",
+      dateModified: "2026-07-07",
+      inLanguage: "en-IN",
+      keywords: [
+        "Kneader Machine in Gujarat",
+        "Kneader Machine Manufacturer in Gujarat",
+        "Industrial Kneader Machine Gujarat",
+        "Masterbatch Kneader Machine",
+        "Plastic Processing Machine Gujarat",
+        "Rubber Kneader Machine",
+        "Dispersion Kneader Machine",
+        "Kneader Machine Ahmedabad",
+        "Kneader Machine Surat",
+        "Kneader Machine Vadodara",
+      ],
+      articleSection: "Industrial Machinery",
+      about: {
+        "@type": "Thing",
+        name: "Kneader Machine Manufacturing",
+      },
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.xtrememachines.in/kneader-machine-in-gujarat#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Why choose Xtreme Machines as a Kneader Machine Manufacturer in Gujarat?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Xtreme Machines is a trusted Kneader Machine Manufacturer in Gujarat, offering high-performance kneader machines for plastic, rubber, masterbatch, and polymer processing industries. Our machines are designed for efficient mixing, consistent output, low maintenance, and long-term industrial performance.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Which cities in Gujarat do you supply Kneader Machines to?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "We supply Kneader Machines across Ahmedabad, Vadodara, Surat, Rajkot, Bhavnagar, Gandhinagar, Vapi, Bharuch, Ankleshwar, Morbi, Jamnagar, Mehsana, and other industrial cities in Gujarat. We also provide installation assistance and after-sales support.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Which industries use your Kneader Machines in Gujarat?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Our Kneader Machines in Gujarat are widely used in masterbatch manufacturing, plastic compounding, PVC processing, rubber industries, cable compounds, engineering plastics, EVA compounds, TPR compounds, and filler masterbatch production for consistent material mixing.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Do you provide customized Kneader Machines in Ahmedabad, Surat, and Vadodara?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. We manufacture customized Kneader Machines in Ahmedabad, Surat, Vadodara, and across Gujarat based on your production capacity, raw material type, automation requirements, and industrial application to ensure maximum productivity.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What production capacities are available for Kneader Machines in Gujarat?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Our Industrial Kneader Machines in Gujarat are available in multiple production capacities to suit small, medium, and large manufacturing units. We help customers choose the right machine according to production volume, material formulation, and future expansion requirements.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How do I select the best Kneader Machine Manufacturer in Gujarat?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "When selecting a Kneader Machine Manufacturer in Gujarat, consider manufacturing experience, machine quality, customization options, energy efficiency, technical support, spare parts availability, and after-sales service. Xtreme Machines offers complete support from machine selection to installation.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What are the advantages of installing a Kneader Machine for Masterbatch Manufacturing in Gujarat?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "A high-quality Kneader Machine for Masterbatch Manufacturing in Gujarat improves filler dispersion, enhances mixing quality, reduces material wastage, increases production efficiency, and delivers uniform output for plastic and polymer processing industries.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Do you provide installation and after-sales support for Kneader Machines in Gujarat?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Xtreme Machines provides complete installation, commissioning, operator guidance, technical assistance, spare parts support, and after-sales service for Kneader Machines across Gujarat, ensuring smooth machine operation and minimal production downtime.",
+          },
+        },
+      ],
+    },
+  ],
+};
+
+const faqs = [
+  {
+    question: "Why choose Xtreme Machines as a Kneader Machine Manufacturer in Gujarat?",
+    answer:
+      "Xtreme Machines is a trusted Kneader Machine Manufacturer in Gujarat, offering high-performance kneader machines for plastic, rubber, masterbatch, and polymer processing industries. Our machines are designed for efficient mixing, consistent output, low maintenance, and long-term industrial performance.",
+  },
+  {
+    question: "Which cities in Gujarat do you supply Kneader Machines to?",
+    answer:
+      "We supply Kneader Machines across Ahmedabad, Vadodara, Surat, Rajkot, Bhavnagar, Gandhinagar, Vapi, Bharuch, Ankleshwar, Morbi, Jamnagar, Mehsana, and other industrial cities in Gujarat. We also provide installation assistance and after-sales support.",
+  },
+  {
+    question: "Which industries use your Kneader Machines in Gujarat?",
+    answer:
+      "Our Kneader Machines in Gujarat are widely used in masterbatch manufacturing, plastic compounding, PVC processing, rubber industries, cable compounds, engineering plastics, EVA compounds, TPR compounds, and filler masterbatch production for consistent material mixing.",
+  },
+  {
+    question: "Do you provide customized Kneader Machines in Ahmedabad, Surat, and Vadodara?",
+    answer:
+      "Yes. We manufacture customized Kneader Machines in Ahmedabad, Surat, Vadodara, and across Gujarat based on your production capacity, raw material type, automation requirements, and industrial application to ensure maximum productivity.",
+  },
+  {
+    question: "What production capacities are available for Kneader Machines in Gujarat?",
+    answer:
+      "Our Industrial Kneader Machines in Gujarat are available in multiple production capacities to suit small, medium, and large manufacturing units. We help customers choose the right machine according to production volume, material formulation, and future expansion requirements.",
+  },
+  {
+    question: "How do I select the best Kneader Machine Manufacturer in Gujarat?",
+    answer:
+      "When selecting a Kneader Machine Manufacturer in Gujarat, consider manufacturing experience, machine quality, customization options, energy efficiency, technical support, spare parts availability, and after-sales service. Xtreme Machines offers complete support from machine selection to installation.",
+  },
+  {
+    question: "What are the advantages of installing a Kneader Machine for Masterbatch Manufacturing in Gujarat?",
+    answer:
+      "A high-quality Kneader Machine for Masterbatch Manufacturing in Gujarat improves filler dispersion, enhances mixing quality, reduces material wastage, increases production efficiency, and delivers uniform output for plastic and polymer processing industries.",
+  },
+  {
+    question: "Do you provide installation and after-sales support for Kneader Machines in Gujarat?",
+    answer:
+      "Yes. Xtreme Machines provides complete installation, commissioning, operator guidance, technical assistance, spare parts support, and after-sales service for Kneader Machines across Gujarat, ensuring smooth machine operation and minimal production downtime.",
+  },
+];
+
 const KneaderMachineinGujarat = () => {
   const galleryImages = [
     dispersion_gallery1,
@@ -59,7 +222,8 @@ const KneaderMachineinGujarat = () => {
       <SEO
         title="Kneader Machine in Gujarat & Kerala regions | Xtreme Machines"
         description="Leading Kneader Machine Manufacturer in Gujarat , Kochi, Kottayam, Vadodara, Daman, Valsad, Vapi & Umbergaon. Durable, custom-built machines by Xtreme Machines."
-        url="https://www.xtrememachines.in/kneader-machine-in-gujarat/"
+        canonical="https://www.xtrememachines.in/kneader-machine-in-gujarat/"
+        schema={kneaderGujaratSchema}
       />
       {/* BANNER */}
       <section className="w-full">
@@ -575,6 +739,30 @@ const KneaderMachineinGujarat = () => {
               production requirements, request a customized quotation, and learn
               more about our complete range of industrial kneading solutions.
             </p>
+          </div>
+
+          {/* FAQ */}
+          <div className="py-12">
+            <h2 className="text-3xl font-bold text-black mb-8">
+              Frequently Asked Questions
+            </h2>
+
+            <div className="space-y-5">
+              {faqs.map((faq, index) => (
+                <div
+                  key={index}
+                  className="border-l-4 border-[#E2010E] bg-white shadow-sm rounded-r-lg p-6"
+                >
+                  <h3 className="text-lg font-semibold text-black mb-3">
+                    {index + 1}. {faq.question}
+                  </h3>
+
+                  <div className="text-gray-700 leading-7">
+                    <p>{faq.answer}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

@@ -15,6 +15,171 @@ import dispersion_kne12 from "../assets/dispersion_kne12.webp";
 import { FaPlus, FaTimes, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import SEO from "../component/SEO";
 
+const dispersionKneaderKolkataSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.xtrememachines.in/dispersion-kneader-in-kolkata/#blogposting",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": "https://www.xtrememachines.in/dispersion-kneader-in-kolkata/",
+      },
+      headline: "Dispersion Kneader in Kolkata | Industrial Dispersion Kneader Manufacturer",
+      description:
+        "Looking for a reliable Dispersion Kneader Manufacturer in Kolkata? Xtreme Machines manufactures high-performance Dispersion Kneader Machines for rubber, plastic, EVA, PVC, masterbatch and polymer processing industries with customized solutions, installation support and nationwide service.",
+      image: "https://www.xtrememachines.in/wp-content/uploads/2024/01/dispersion-kneader-machine.webp",
+      author: {
+        "@type": "Organization",
+        name: "Xtreme Machines",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Xtreme Machines",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://www.xtrememachines.in/wp-content/uploads/2023/09/logo.png",
+        },
+      },
+      datePublished: "2025-01-01",
+      dateModified: "2026-07-07",
+      inLanguage: "en-IN",
+      articleSection: "Industrial Machinery",
+      keywords: [
+        "Dispersion Kneader in Kolkata",
+        "Dispersion Kneader Manufacturer in Kolkata",
+        "Industrial Dispersion Kneader",
+        "Rubber Kneader Machine",
+        "Plastic Kneader Machine",
+        "Masterbatch Kneader",
+        "PVC Processing Machine",
+        "EVA Kneader Machine",
+        "Rubber Mixing Machine",
+        "Polymer Processing Machine",
+        "Dispersion Kneader West Bengal",
+        "Rubber Processing Equipment",
+      ],
+      about: {
+        "@type": "Thing",
+        name: "Dispersion Kneader Machine Manufacturing",
+      },
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.xtrememachines.in/dispersion-kneader-in-kolkata/#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Why choose Xtreme Machines for a Dispersion Kneader in Kolkata?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Xtreme Machines is a trusted Dispersion Kneader Manufacturer in Kolkata, offering high-performance kneading solutions for rubber, plastic, EVA, PVC, masterbatch, and polymer processing industries. Our machines are engineered for efficient mixing, superior dispersion, low power consumption, and long service life, making them ideal for manufacturers across Kolkata and West Bengal.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Which industries use your Dispersion Kneader Machines in Kolkata?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Our Dispersion Kneader Machines in Kolkata are widely used in rubber processing, plastic compounding, PVC products, EVA compounds, footwear manufacturing, cable compounds, masterbatch production, reclaimed rubber processing, engineering plastics, and automotive component manufacturing industries.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Which locations do you supply Dispersion Kneader Machines in West Bengal?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "We supply Dispersion Kneader Machines across Kolkata, Howrah, Durgapur, Asansol, Haldia, Kharagpur, Siliguri, Bardhaman, Dankuni, and other industrial areas of West Bengal. We also provide installation, commissioning, and technical support throughout the region.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Can your Dispersion Kneader Machine process different rubber and plastic materials?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Our Industrial Dispersion Kneader Machines are designed to process Natural Rubber, Synthetic Rubber, Reclaim Rubber, EVA, PVC, PP, PE, TPR, Engineering Plastics, Filler Masterbatch, and various polymer compounds with excellent mixing consistency.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Do you provide customized Dispersion Kneader Machines in Kolkata?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. We manufacture customized Dispersion Kneader Machines in Kolkata based on production capacity, chamber size, rotor configuration, automation level, material type, plant layout, and future production requirements to maximize operational efficiency.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What are the advantages of installing a Dispersion Kneader Machine?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "A high-quality Dispersion Kneader Machine improves material dispersion, reduces batch processing time, minimizes material wastage, increases production efficiency, maintains uniform compound quality, and delivers better overall product performance for rubber and plastic industries.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Do you provide installation and after-sales support for Dispersion Kneader Machines in Kolkata?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Xtreme Machines offers complete installation, commissioning, operator training, preventive maintenance guidance, genuine spare parts, and technical support for Dispersion Kneader Machines across Kolkata and all major industrial locations in West Bengal.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How can I get a quotation for a Dispersion Kneader Machine in Kolkata?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Simply contact the Xtreme Machines sales team with your production capacity, raw material details, application, automation requirements, and preferred machine configuration. Our experts will recommend the most suitable Dispersion Kneader Machine in Kolkata and provide a customized quotation with complete technical assistance.",
+          },
+        },
+      ],
+    },
+  ],
+};
+
+const faqs = [
+  {
+    question: "Why choose Xtreme Machines for a Dispersion Kneader in Kolkata?",
+    answer:
+      "Xtreme Machines is a trusted Dispersion Kneader Manufacturer in Kolkata, offering high-performance kneading solutions for rubber, plastic, EVA, PVC, masterbatch, and polymer processing industries. Our machines are engineered for efficient mixing, superior dispersion, low power consumption, and long service life, making them ideal for manufacturers across Kolkata and West Bengal.",
+  },
+  {
+    question: "Which industries use your Dispersion Kneader Machines in Kolkata?",
+    answer:
+      "Our Dispersion Kneader Machines in Kolkata are widely used in rubber processing, plastic compounding, PVC products, EVA compounds, footwear manufacturing, cable compounds, masterbatch production, reclaimed rubber processing, engineering plastics, and automotive component manufacturing industries.",
+  },
+  {
+    question: "Which locations do you supply Dispersion Kneader Machines in West Bengal?",
+    answer:
+      "We supply Dispersion Kneader Machines across Kolkata, Howrah, Durgapur, Asansol, Haldia, Kharagpur, Siliguri, Bardhaman, Dankuni, and other industrial areas of West Bengal. We also provide installation, commissioning, and technical support throughout the region.",
+  },
+  {
+    question: "Can your Dispersion Kneader Machine process different rubber and plastic materials?",
+    answer:
+      "Yes. Our Industrial Dispersion Kneader Machines are designed to process Natural Rubber, Synthetic Rubber, Reclaim Rubber, EVA, PVC, PP, PE, TPR, Engineering Plastics, Filler Masterbatch, and various polymer compounds with excellent mixing consistency.",
+  },
+  {
+    question: "Do you provide customized Dispersion Kneader Machines in Kolkata?",
+    answer:
+      "Yes. We manufacture customized Dispersion Kneader Machines in Kolkata based on production capacity, chamber size, rotor configuration, automation level, material type, plant layout, and future production requirements to maximize operational efficiency.",
+  },
+  {
+    question: "What are the advantages of installing a Dispersion Kneader Machine?",
+    answer:
+      "A high-quality Dispersion Kneader Machine improves material dispersion, reduces batch processing time, minimizes material wastage, increases production efficiency, maintains uniform compound quality, and delivers better overall product performance for rubber and plastic industries.",
+  },
+  {
+    question: "Do you provide installation and after-sales support for Dispersion Kneader Machines in Kolkata?",
+    answer:
+      "Yes. Xtreme Machines offers complete installation, commissioning, operator training, preventive maintenance guidance, genuine spare parts, and technical support for Dispersion Kneader Machines across Kolkata and all major industrial locations in West Bengal.",
+  },
+  {
+    question: "How can I get a quotation for a Dispersion Kneader Machine in Kolkata?",
+    answer:
+      "Simply contact the Xtreme Machines sales team with your production capacity, raw material details, application, automation requirements, and preferred machine configuration. Our experts will recommend the most suitable Dispersion Kneader Machine in Kolkata and provide a customized quotation with complete technical assistance.",
+  },
+];
+
 const DispersionKneaderinKolkata = () => {
   const galleryImages = [
     dispersion_kne1,
@@ -58,7 +223,8 @@ const DispersionKneaderinKolkata = () => {
       <SEO
         title="Dispersion Kneader in Kolkata | Manufacturer & Supplier | Xtreme Machines"
         description="Looking for a high-quality Dispersion Kneader in Kolkata? Xtreme Machines is a trusted manufacturer and supplier offering energy-efficient rubber mixing machines across Kolkata, Ahmedabad, Hosur, Indore, Kollam, and Kerala."
-        url="https://www.xtrememachines.in/dispersion-kneader-in-kolkata/"
+        canonical="https://www.xtrememachines.in/dispersion-kneader-in-kolkata/"
+        schema={dispersionKneaderKolkataSchema}
       />
 
       {/* TOP BANNER */}
@@ -458,6 +624,30 @@ const DispersionKneaderinKolkata = () => {
           requirements, get a customized quotation, and learn more about our
           range of industrial mixing solutions.
         </p>
+
+        {/* FAQ */}
+        <div className="py-12">
+          <h2 className="text-3xl font-bold text-black mb-8">
+            Frequently Asked Questions
+          </h2>
+
+          <div className="space-y-5">
+            {faqs.map((faq, index) => (
+              <div
+                key={index}
+                className="border-l-4 border-[#E2010E] bg-white shadow-sm rounded-r-lg p-6"
+              >
+                <h3 className="text-lg font-semibold text-black mb-3">
+                  {index + 1}. {faq.question}
+                </h3>
+
+                <div className="text-gray-700 leading-7">
+                  <p>{faq.answer}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </>
   );

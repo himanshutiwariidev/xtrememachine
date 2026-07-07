@@ -5,6 +5,7 @@ function SEO({
   description,
   keywords,
   canonical,
+  schema,
 }) {
   return (
     <Helmet>
@@ -29,6 +30,13 @@ function SEO({
           rel="canonical"
           href={canonical}
         />
+      )}
+
+      {/* Structured Data (JSON-LD) */}
+      {schema && (
+        <script type="application/ld+json">
+          {JSON.stringify(schema)}
+        </script>
       )}
     </Helmet>
   );
