@@ -1,6 +1,10 @@
 import SEO from "../component/SEO";
 
 function Blog4() {
+  const slug =
+    "filler-machine-manufacturer-complete-buying-guide-types-benefits-expert-tips-2026";
+  const canonicalUrl = `https://www.xtrememachines.in/${slug}/`;
+
   const title =
     "Filler Machine Manufacturer: Complete Buying Guide, Types, Benefits & Expert Tips (2026)";
 
@@ -12,10 +16,10 @@ function Blog4() {
     "@graph": [
       {
         "@type": "BlogPosting",
-        "@id": "https://www.xtrememachines.in/filler-machine-manufacturer-complete-buying-guide-types-benefits-expert-tips-2026/#blogposting",
+        "@id": `${canonicalUrl}#blogposting`,
         mainEntityOfPage: {
           "@type": "WebPage",
-          "@id": "https://www.xtrememachines.in/filler-machine-manufacturer-complete-buying-guide-types-benefits-expert-tips-2026/",
+          "@id": canonicalUrl,
         },
         headline: "Top 10 Best Filler Machine Manufacturer: Complete Guide for Businesses",
         description:
@@ -60,7 +64,7 @@ function Blog4() {
       },
       {
         "@type": "FAQPage",
-        "@id": "https://www.xtrememachines.in/filler-machine-manufacturer/#faq",
+        "@id": `${canonicalUrl}#faq`,
         mainEntity: [
           {
             "@type": "Question",
@@ -109,7 +113,7 @@ function Blog4() {
 
   return (
     <>
-      <SEO title={title} description={description} canonical={"/filler-machine-manufacturer/"} schema={schema} />
+      <SEO title={title} description={description} canonical={`/${slug}/`} schema={schema} />
 
       <section className="bg-[#163f68] py-28 px-5">
         <div className="max-w-300 mx-auto text-center">
@@ -121,7 +125,7 @@ function Blog4() {
 
       <section className="max-w-300 mx-auto px-5 py-16">
         <p className="text-[#667085] text-[18px] leading-10">
-          In today's competitive manufacturing industry, speed, precision, and consistency are critical for business success. Whether you produce beverages, edible oil, pharmaceuticals, cosmetics, chemicals, or food products, investing in the right <a href="/filler-machine-manufacturer/" className="text-[#ff5c0a]">filler machine manufacturer</a> can significantly improve production efficiency and product quality.
+          In today's competitive manufacturing industry, speed, precision, and consistency are critical for business success. Whether you produce beverages, edible oil, pharmaceuticals, cosmetics, chemicals, or food products, investing in the right <a href={`/${slug}/`} className="text-[#ff5c0a]">filler machine manufacturer</a> can significantly improve production efficiency and product quality.
         </p>
 
         <p className="text-[#667085] text-[18px] leading-10 mt-4">
