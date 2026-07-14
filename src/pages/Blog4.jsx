@@ -9,15 +9,102 @@ function Blog4() {
 
   const schema = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline: title,
-    description: description,
-    author: { "@type": "Organization", name: "Xtreme Machines" },
-    publisher: { "@type": "Organization", name: "Xtreme Machines" },
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://www.xtrememachines.in/filler-machine-manufacturer/",
-    },
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://www.xtrememachines.in/filler-machine-manufacturer-complete-buying-guide-types-benefits-expert-tips-2026/#blogposting",
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": "https://www.xtrememachines.in/filler-machine-manufacturer-complete-buying-guide-types-benefits-expert-tips-2026/",
+        },
+        headline: "Top 10 Best Filler Machine Manufacturer: Complete Guide for Businesses",
+        description:
+          "Discover the top filler machine manufacturers, how to choose the right filling machine, different machine types, industry applications, and why Xtreme Machines is a trusted filler machine manufacturer in India.",
+        image: [
+          "https://www.xtrememachines.in/wp-content/uploads/2026/07/filler-machine-manufacturer-banner.webp",
+        ],
+        author: {
+          "@type": "Organization",
+          name: "Xtreme Machines",
+          url: "https://www.xtrememachines.in/",
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Xtreme Machines",
+          logo: {
+            "@type": "ImageObject",
+            url: "https://www.xtrememachines.in/wp-content/uploads/2025/01/logo.png",
+          },
+        },
+        datePublished: "2026-07-14",
+        dateModified: "2026-07-14",
+        articleSection: "Industrial Machinery",
+        keywords: [
+          "Filler Machine Manufacturer",
+          "Automatic Filling Machine",
+          "Bottle Filling Machine",
+          "Liquid Filling Machine",
+          "Paste Filling Machine",
+          "Powder Filling Machine",
+          "Packaging Machinery",
+          "Industrial Filling Machine",
+          "Xtreme Machines",
+        ],
+        wordCount: "1800",
+        inLanguage: "en",
+        about: {
+          "@type": "Thing",
+          name: "Filler Machine Manufacturer",
+        },
+        isAccessibleForFree: true,
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.xtrememachines.in/filler-machine-manufacturer/#faq",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "What does a filler machine manufacturer do?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "A filler machine manufacturer designs and manufactures machines used to accurately fill liquids, powders, pastes, and granules into bottles, jars, cans, pouches, and containers.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Which industries use filling machines?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Food, beverage, pharmaceutical, cosmetic, dairy, lubricant, chemical, and personal care industries commonly use filling machines.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "How do I choose the best filler machine manufacturer?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Look for machine quality, filling accuracy, customization options, after-sales support, warranty, spare parts availability, and industry experience.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "What is the difference between automatic and semi-automatic filling machines?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Automatic machines operate with minimal human intervention and are suitable for large-scale production, while semi-automatic machines require some manual operation and are ideal for SMEs.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Why should I choose Xtreme Machines?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Xtreme Machines offers advanced engineering, high-quality stainless steel construction, customized solutions, excellent after-sales support, and cost-effective filling machines for food, beverage, pharmaceutical, cosmetic, chemical, and other industries.",
+            },
+          },
+        ],
+      },
+    ],
   };
 
   return (
