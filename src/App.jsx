@@ -18,6 +18,7 @@ import Blog from "./pages/Blog";
 import Blog1 from "./pages/Blog1";
 import Blog2 from "./pages/Blog2";
 import Blog3 from "./pages/Blog3";
+import Blog4 from "./pages/Blog4";
 import ScrollToTop from "./component/ScrollToTop";
 import FillerMachineManufacturerGujarat from "./pages/FillerMachineManufacturerGujarat";
 import FillerMasterBatchMumbai from "./pages/FillerMasterBatchMumbai";
@@ -61,7 +62,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/who-is-the-best-filler-machine-manufacturer-in-india-for-industrial-packaging-needs/" element={<Blog1 />} />
         <Route path="/top-4-advanced-machines-in-2025-filler-machine-pvc-compounding-line-and-shredders/" element={<Blog2 />} />
-        <Route path="/filler-machine-manufacturer/" element={<Blog3 />} />
+        <Route path="/filler-machine-manufacturer/" element={<Blog4 />} />
         <Route path="/filler-machine-manufacturer-in-gujarat/" element={<FillerMachineManufacturerGujarat />} />
         <Route path="/masterbatch-machine-in-mumbai/" element={<FillerMasterBatchMumbai />} />
         <Route path="/kneader-machine-in-gujarat/" element={<KneaderMachineinGujarat />} />
