@@ -62,6 +62,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/who-is-the-best-filler-machine-manufacturer-in-india-for-industrial-packaging-needs/" element={<Blog1 />} />
         <Route path="/top-4-advanced-machines-in-2025-filler-machine-pvc-compounding-line-and-shredders/" element={<Blog2 />} />
+        <Route path="/the-future-of-filler-machines-trends-and-innovations-in-2025/" element={<Blog3 />} />
         <Route path="/filler-machine-manufacturer-complete-buying-guide-types-benefits-expert-tips-2026/" element={<Blog4 />} />
         <Route path="/filler-machine-manufacturer/" element={<Blog4 />} />
         <Route path="/filler-machine-manufacturer-in-gujarat/" element={<FillerMachineManufacturerGujarat />} />
