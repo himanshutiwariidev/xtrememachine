@@ -34,11 +34,25 @@ app.use(
           useDefaults: true,
           directives: {
             defaultSrc: ["'self'"],
-            scriptSrc: ["'self'"],
-            styleSrc: ["'self'", "'unsafe-inline'"],
+            // 'self' + the GA loader script, plus the exact hash of the
+            // static inline gtag bootstrap snippet in index.html (avoids
+            // 'unsafe-inline', which would allowlist ANY injected script).
+            scriptSrc: [
+              "'self'",
+              "https://www.googletagmanager.com",
+              "'sha256-5fCGfhsXbqUrslbGh5DEGyfqsfS6eC/s82KnrJNsFVk='",
+            ],
+            // Google Fonts stylesheet (@import in src/index.css) + its font files
+            styleSrc: ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
             imgSrc: ["'self'", "data:", "https:"],
-            fontSrc: ["'self'", "data:"],
-            connectSrc: ["'self'"],
+            fontSrc: ["'self'", "data:", "https://fonts.gstatic.com"],
+            // Google Analytics measurement beacons
+            connectSrc: [
+              "'self'",
+              "https://www.google-analytics.com",
+              "https://*.google-analytics.com",
+              "https://www.googletagmanager.com",
+            ],
             // Google Maps + YouTube embeds used on Contact Us / Video pages
             frameSrc: ["'self'", "https://www.google.com", "https://www.youtube.com"],
             objectSrc: ["'none'"],
